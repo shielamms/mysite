@@ -21,7 +21,6 @@ tags = [
 ]
 
 features = [
-  "Multi-Authors",
   "Search",
   "Multilingual",
   "Dark Mode",

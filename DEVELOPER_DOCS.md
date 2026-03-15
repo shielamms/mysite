@@ -184,7 +184,6 @@ draft: false
 Key subdirectories:
 
 - `blog/` (posts)
-- `authors/` (author pages / profiles if used)
 - `sections/` (homepage sectional content: e.g. `testimonial.md`, `call-to-action.md`) — often contain `build.render = "never"` to avoid page output.
 
 Shortcodes (from imported modules) include: button, notice, accordion, tab, modal, etc.

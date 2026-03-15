@@ -56,7 +56,6 @@ We have included almost everything you need to start your Hugo project. Let's se
 
 ### 📌 Key Features
 
-- 👥 Multi-Authors
 - 🎯 Similar Posts Suggestion
 - 🔍 Search Functionality
 - 🌑 Dark Mode
