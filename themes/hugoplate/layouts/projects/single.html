@@ -29,6 +29,9 @@
               </li>
             {{ end }}
           </ul>
+          <div class="content mb-10">
+            {{ .Content }}
+          </div>
           <!-- comments -->
           {{ if site.Config.Services.Disqus.Shortname }}
             <div class="mt-20">

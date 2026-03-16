@@ -1,10 +1,12 @@
 ---
-title: "Project DEF"
+title: "How to build an Application with modern Technology"
 meta_title: ""
-description: "Dummy project 2"
-date: 2026-03-15T10:00:00Z
+description: "this is meta description"
+date: 2022-04-04T05:00:00Z
 image: "/images/image-placeholder.png"
-categories: ["Application", "Data"]
+categories: ["Architecture"]
+author: "John Doe"
+tags: ["silicon", "technology"]
 draft: false
 ---
 

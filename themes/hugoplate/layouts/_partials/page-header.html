@@ -3,6 +3,9 @@
     <div
       class="from-body to-light dark:from-darkmode-body dark:to-darkmode-light rounded-2xl bg-gradient-to-b px-8 py-14">
       <h1>{{ T (printf "%s" (lower .Title)) | default .Title | title }}</h1>
+      {{ with .Params.description }}
+        <p class="mt-4 text-lg text-text-dark dark:text-darkmode-text-dark">{{ . }}</p>
+      {{ end }}
     </div>
   </div>
 </section>
