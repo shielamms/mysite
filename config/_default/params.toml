@@ -2,8 +2,8 @@
 # favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
 favicon = "images/favicon.png"
 # logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
-logo = "images/logo.png"
-logo_darkmode = "images/logo-darkmode.png"
+logo = "images/eilash_logo_light.png"
+logo_darkmode = "images/eilash_logo_dark.png"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
 logo_width = "160px"
@@ -48,8 +48,8 @@ show_categories = true
 # announcement module: https://github.com/gethugothemes/hugo-modules/tree/master/components/announcement
 [announcement]
 enable = false
-expire_days = 7
-content = "<span class='text-center block'>♥️ Loving Hugoplate? </span>"
+expire_days = 14
+content = "<span class='text-center block' style='color:rgb(229, 102, 22)'><b>Update!</b> I'm currently on a career break and open only to part-time or short-term SW roles.</span>"
 
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo

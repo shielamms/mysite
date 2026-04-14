@@ -6,21 +6,21 @@
     <section class="section pt-14">
       <div class="container">
         <div class="row justify-center">
-          <div class="lg:col-12 md:col-12 mb-8 flex">
-            <div class="flex-shrink-0 mr-2">
+          <div class="lg:col-12 md:col-12 mb-14 flex">
+            <div class="flex-shrink-0 mr-4">
               {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "sm:!max-w-[290px] md:!max-w-[290px] lg:!max-w-[340px] xl:!max-w-[340px]" "DisplayXL" "800x") }}
             </div>
             <div class="ml-4 mt-12 xl:pr-40 lg:pr-20">
-              <h1 class="mb-4 text-h3 lg:text-h1">
+              <h1 class="mb-6 text-h3 lg:text-h1">
                 {{ .title | markdownify }}
               </h1>
-              <p class="mb-1">
+              <p class="mt-8">
                 {{ .content | markdownify }}
               </p>
             </div>
           </div>  {{ with .skillpoints }}
             {{ if .enable }}
-              <div class="row">
+              <div class="row mt-6">
                 <div class="md:col-4 text-center mb-6">
                   <h5 class="h5 font-primary">
                     {{ .skill1.title | markdownify }}
@@ -54,27 +54,76 @@
   {{ end }}
   <!-- /Banner -->
 
+
+  <!-- Second Banner -->
+    {{ with .Params.secondary_banner }}
+    <section class="section pt-16 bg-gradient">
+      <div class="container">
+        <div class="row items-center justify-between">
+            <h1 class="mb-8 mt-10 text-h3 lg:text-h2 text-center">
+              {{ .title | markdownify }}
+            </h1>
+            <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-4 text-center">
+              <p class="mb-1 text-center mb-4">
+                {{ .content | markdownify }}
+              </p>
+            </div>
+            <div class="mr-2 flex justify-center">
+              {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "xl:!max-w-[980px]") }}
+            </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+  <!-- /Second Banner -->
+
+
   <!-- Features -->
   {{ range $i, $e:= .Params.features }}
     <section class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
       <div class="container">
-        <div class="row items-center justify-between">
-          <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-6 text-center">
-            <h2 class="mb-4">
+        <div class="row">
+          <div class="md:col-10 lg:col-8 xl:col-8 mx-auto mb-6">
+            <h1 class="mb-8 mt-10 text-h3 lg:text-h2 text-center">
               {{ .title | markdownify }}
             </h2>
+
             {{ range $j, $f:= .sections }}
-              <div class="flex-shrink-0 mr-2">
-                {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "sm:!max-w-[290px] md:!max-w-[290px] lg:!max-w-[340px] xl:!max-w-[340px]" "DisplayXL" "800x") }}
+              <div class="container mb-14">
+                <div class="row items-center justify-between">
+                  
+                  {{ if eq $f.imgalign "right" }}
+                  <div class="mb:md-0 md:col-4 lg:col-6 xl:col-6">
+                    {{ partial "image" (dict "Src" .image "Alt" "Section image" "Loading" "eager" "DisplayXL" "800x") }}
+                  </div>
+                  {{ end }}
+
+                  <div class="md:col-7 lg:col-6">
+                    {{ range $k, $m:= .paragraphs }}
+                      {{ if .year }}
+                        <h5 class="h5">
+                          {{ .year }}
+                        </h5>
+                      {{ end }}
+                      <p><strong>
+                        {{ .title | markdownify }}
+                      </strong>
+                      </p>
+                      <p class="plinked mb-6 mt-4">
+                        {{ .description | markdownify }}
+                      </p>
+                    {{ end }}
+                  </div>
+
+                  {{ if eq $f.imgalign "left" }}
+                  <div class="mb:md-0 md:col-4 lg:col-6 xl:col-6">
+                    {{ partial "image" (dict "Src" .image "Alt" "Section image" "Loading" "eager" "DisplayXL" "800x") }}
+                  </div>
+                  {{ end }}
+                  
+                  
+                </div>
               </div>
-              {{ range $k, $m:= .paragraphs }}
-                <p>
-                  {{ .title | markdownify }}
-                </p>
-                <p>
-                  {{ .description | markdownify }}
-                </p>
-              {{ end }}
             {{ end }}
           </div>
           
