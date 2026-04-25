@@ -54,23 +54,23 @@
     }
 
     // Show theme switcher after applying theme
-    // document.addEventListener("DOMContentLoaded", () => {
-    //   var themeSwitch = document.querySelectorAll("[data-theme-switcher]");
-    //   var themeSwitcherContainer = document.querySelector('.theme-switcher');
+    document.addEventListener("DOMContentLoaded", () => {
+      var themeSwitch = document.querySelectorAll("[data-theme-switcher]");
+      var themeSwitcherContainer = document.querySelector('.theme-switcher');
 
-    //   [].forEach.call(themeSwitch, function (ts) {
-    //     ts.checked = darkMode;
-    //     ts.addEventListener("click", () => {
-    //       document.documentElement.classList.toggle("dark");
-    //       localStorage.setItem(
-    //         "theme",
-    //         document.documentElement.classList.contains("dark") ? "dark" : "light"
-    //       );
-    //     });
-    //   });
+      [].forEach.call(themeSwitch, function (ts) {
+        ts.checked = darkMode;
+        ts.addEventListener("click", () => {
+          document.documentElement.classList.toggle("dark");
+          localStorage.setItem(
+            "theme",
+            document.documentElement.classList.contains("dark") ? "dark" : "light"
+          );
+        });
+      });
 
-    //   // Now make the switcher visible after the theme is applied
-    //   themeSwitcherContainer.classList.remove("invisible");
-    // });
+      // Now make the switcher visible after the theme is applied
+      themeSwitcherContainer.classList.remove("invisible");
+    });
   </script>
 {{ end }}
