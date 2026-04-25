@@ -9,3 +9,8 @@
         color: rgb(129, 52, 188);
     }
 }
+
+ul.home-ulist {
+    /* list-style-type: disc; */
+    list-style-position: inside;
+}

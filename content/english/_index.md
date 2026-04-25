@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "I'm Shiela."
-  content: "I'm a Data & Software Engineer with many hobbies. <br /><br /> I have over a decade of experience building software for safety, space, education, and many more industries. I am open to software engineering work focusing on the use of geospatial technologies to solve climate problems."
+  content: "**I'm a Data & Software Engineer with many hobbies.** <br /><br />I have over a decade of experience building software for safety, space, education, and many more industries. I am open to software engineering work focusing on the use of geospatial technologies to solve climate problems."
   image: "/images/hi.png"
   button:
     enable: false
@@ -40,13 +40,13 @@ features:
         paragraphs:
           - year: "2014 - 2015"
             title: "Philippines"
-            description: "I started out in Manila after getting my Bachelor's Degree in Computer Science. I was a Java Developer in [Advanced World Solutions, Inc.](https://www.awsys-i.com/en/home.php) where I built inventory software for a heavy machinery manufacturer in Japan. In the process, I learned to communicate in business Japanese, which helped me get transferred to client sites and work directly with Japanese clients."
+            description: "I started out in Manila after getting my Bachelor's Degree in Computer Science. I was a **Java Developer** in [Advanced World Solutions, Inc.](https://www.awsys-i.com/en/home.php) where I built inventory software for a heavy machinery manufacturer in Japan. In the process, I learned to communicate in business Japanese, which helped me get transferred to client sites and work directly with Japanese clients."
       - imgalign: "right"
         image: "/images/JP_labelled_transparent.png"
         paragraphs:
           - year: "2016 - 2017"
             title: "Chiba, Japan"
-            description: "Being based in client sites in Japan, I became a \"communication bridge\" for my team back in the Philippines. I was a Technical Lead and wrote software specifications in Japanese while training junior developers in Java development."
+            description: "Being based in client sites in Japan, I became a \"communication bridge\" for my team back in the Philippines. I was a **Technical Lead** and wrote software specifications in Japanese while training junior developers in Java development."
           - year: "2017 - 2019"
             title: "Tokyo, Japan"
             description: "I briefly took on QA projects with clients building precious metals trading and anti-money laundering software. In 2018, I became fascinated with the developments in NLP and worked with an e-commerce conglomerate in training their first chatbots in entertainment, banking, sports, and even romance conversations."
@@ -58,7 +58,7 @@ features:
         paragraphs:
           - year: "2019 - 2020"
             title: "Newcastle-Upon-Tyne, United Kingdom"
-            description: "I joined [Accenture UK](https://www.accenture.com/gb-en) as an AI specialist. I built machine learning classification models to help tech support teams triage tickets in near real-time. This relieved them of long triage queues and enabled them to focus on resolving high-priority problems."
+            description: "I joined [Accenture UK](https://www.accenture.com/gb-en) as an AI specialist. I built machine learning classification models to help tech support teams triage customer issues. This relieved them of long triage queues and enabled them to focus on resolving high-priority problems."
           - year: "2020 - 2021"
             description: "During the pandemic, my role had to adapt to the changing business. I taught myself cloud technologies in AWS and applied my new skills on migrating on-premise health services to cloud servers. After that, I built a cloud-based sales analytics pipeline for a major postal service, helping them gain valuable insights about seasonal trends from their data warehouse."
       - imgalign: "left"
@@ -73,7 +73,7 @@ features:
         image: "/images/satellite_transparent.png"
         img_captext: "Then space was calling me..."
       - imgalign: "left"
-        image: "/images/service-2.png"
+        image: "/images/scotland_transparent.png"
         paragraphs:
           - year: "2023 - 2025"
             title: "Glasgow, Scotland"
@@ -81,14 +81,24 @@ features:
           - year: "2025 - 2026"
             title: "Scotland (Remote)"
             description: "I went back to doing more AI-related stuff and shifted my focus towards Applied Computer Vision. At [Protex AI](https://www.protex.ai/), I wrote software for IoT devices installed in warehouses and factories to detect potentially dangerous situations and ensure workplace safety. I partly experimented with Vision Language Models and implemented algorithms for long-term event tracking, privacy zone blurring, and fall detection."
-  - title: "My \"Extra-curricular Activities\""
-    sections:
-      - imgalign: "right"
-        image: "/images/service-2.png"
-        paragraphs:
-          - description: "I go on long hikes, walks, and runs. I love outdoor activities, especially anything involving mountains, snow, or trails."
-          - description: I'm a big reader of books about space, nature, and history. I've set myself a soft rule to finish reading at least one book a month since mid-2021.
-          - description: I do pencil portrait sketches of animals and friends.
-          - description: I love cooking. But in general, I just love food."
+
+extra_curriculars:
+  title: "My \"Extra-curricular Activities\""
+  image: "/images/avatar_cook.png"
+  paragaphs:
+      - text: "I go on long hikes, walks, and runs. I love outdoor activities, especially anything involving mountains, snow, or trails. You can find my old travel photos in [The Wide Traverse](https://thewidetraverse.wordpress.com/)."
+      - text: "I'm a big reader of books about space, nature, and history."
+      - text: "I do pencil portrait sketches of animals and friends."
+      - text: "I love cooking. But in general, I just love food."
 
 ---
+<!-- 
+### My Extra-Curricular Activities
+
+- I go on long hikes, walks, and runs. I love outdoor activities, especially anything involving mountains, snow, or trails.
+- I'm a big reader of books about space, nature, and history.
+- I do pencil portrait sketches of animals and friends.
+- I love cooking. But in general, I just love food. -->
+
+{{< gallery dir="images/extracurriculars" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="false" >}}
+
