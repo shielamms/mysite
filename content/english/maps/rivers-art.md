@@ -5,7 +5,7 @@ date: 2022-03-04T05:00:00Z
 image: "/images/maps/Brazil_rivers_rainbow.png"
 categories: ["Artsy"]
 tags: ["python"]
-draft: false
+draft: true
 ---
 
 

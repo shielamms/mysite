@@ -4,7 +4,7 @@ date: 2022-04-04T05:00:00Z
 image: "/images/maps/global_temperature_anomaly_2025.png"
 categories: ["Climate", "Polar"]
 tags: ["python"]
-draft: false
+draft: true
 ---
 
 ## Animations

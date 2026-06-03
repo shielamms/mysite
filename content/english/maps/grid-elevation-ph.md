@@ -5,7 +5,7 @@ date: 2022-04-04T05:00:00Z
 image: "/images/maps/ph_elevation_hexgrid_labelled.jpeg"
 categories: ["Artsy"]
 tags: ["qgis"]
-draft: false
+draft: true
 ---
 
 I made this map in the process of learning how to process elevation data in QGIS. I used the 2.5D renderer to emboss areas in higher elevations. Then I applied a blue-green colour ramp to shade the low elevations (from the level of the ocean floor) with blue hues and higher elevations (islands and surrounding land submerged in the ocean) with greenish hues.

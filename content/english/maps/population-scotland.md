@@ -7,7 +7,7 @@ image: "/images/maps/scotland_pop_density.png"
 categories: ["Census"]
 author: "John Doe"
 tags: ["python"]
-draft: false
+draft: true
 ---
 
 

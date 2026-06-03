@@ -6,7 +6,7 @@ summary: ""
 image: "/images/maps/antarctic_facilities.jpeg"
 categories: ["Polar"]
 author: "Shiela Sandoval"
-draft: false
+draft: true
 tags: ["qgis"]
 ---
 
