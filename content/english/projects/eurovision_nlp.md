@@ -2,8 +2,8 @@
 title: "Eurovision-inspired Lyrics Generator with Tensorflow"
 meta_title: ""
 summary: "A text-generation model built with Tensorflow and trained on a dataset of Eurovision song lyrics in English."
-date: 2026-03-15T10:00:00Z
-image: "/images/image-placeholder.png"
+date: 2026-03-12T10:00:00Z
+# image: "/images/image-placeholder.png"
 categories: ["Machine Learning", "NLP"]
 draft: false
 ---

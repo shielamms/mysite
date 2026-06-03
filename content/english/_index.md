@@ -1,9 +1,9 @@
 ---
 # Banner
 banner:
-  title: "I'm Shiela."
-  content: "**I'm a Data & Software Engineer with many hobbies.** <br /><br />I have over a decade of experience building software for safety, space, education, and many more industries. I am open to software engineering work focusing on the use of geospatial technologies to solve climate problems."
-  image: "/images/hi.png"
+  # title: "I'm Shiela."
+  content: "**I'm a Data & Software Engineer with many hobbies.**"
+  image: "/images/profile.png"
   button:
     enable: false
     label: "Try this"
@@ -18,12 +18,12 @@ banner:
       description: "I have designed and built data processing pipelines for data warehouses, training ML models, and building dashboards for data scientists and product managers."
     skill3:
       title: "Maps & Remote Sensing"
-      description: "I am currently exploring the field of geospatial data processing for weather & climate analyses and general mapping projects."
-  quicklinks:
-    - name: "LinkedIn"
-      link: "https://linkedin.com/in/shiela-mms"
-    - name: "Github"
-      link: "https://github.com/shielamms"
+      description: "I am currently exploring the field of geospatial data processing and GIS tools. Check out [my maps](https://www.shielasandoval.com/maps)."
+  # quicklinks:
+  #   - name: "LinkedIn"
+  #     link: "https://linkedin.com/in/shiela-mms"
+  #   - name: "Github"
+  #     link: "https://github.com/shielamms"
 
 
 secondary_banner:
@@ -40,16 +40,16 @@ features:
         paragraphs:
           - year: "2014 - 2015"
             title: "Philippines"
-            description: "I started out in Manila after getting my Bachelor's Degree in Computer Science. I was a **Java Developer** in [Advanced World Solutions, Inc.](https://www.awsys-i.com/en/home.php) where I built inventory software for a heavy machinery manufacturer in Japan. In the process, I learned to communicate in business Japanese, which helped me get transferred to client sites and work directly with Japanese clients."
+            description: "I moved to Manila right after getting my Bachelor's Degree in Computer Science. I was a **Java Developer** in [Advanced World Solutions, Inc.](https://www.awsys-i.com/en/home.php) where I built inventory software for a heavy machinery manufacturer in Japan. In the process, I learned to communicate in business Japanese, which helped me get transferred to client sites and work directly with Japanese clients."
       - imgalign: "right"
         image: "/images/JP_labelled_transparent.png"
         paragraphs:
-          - year: "2016 - 2017"
-            title: "Chiba, Japan"
-            description: "Being based in client sites in Japan, I became a \"communication bridge\" for my team back in the Philippines. I was a **Technical Lead** and wrote software specifications in Japanese while training junior developers in Java development."
-          - year: "2017 - 2019"
+          - year: "2016 - 2018"
+            title: "Chiba and Tokyo, Japan"
+            description: "For about 2 years I worked as a consultant in various companies (anti-money laundering systems, precious metals trading platforms), building automations and sometimes writing software specs in Japanese."
+          - year: "2018 - 2019"
             title: "Tokyo, Japan"
-            description: "I briefly took on QA projects with clients building precious metals trading and anti-money laundering software. In 2018, I became fascinated with the developments in NLP and worked with an e-commerce conglomerate in training their first chatbots in entertainment, banking, sports, and even romance conversations."
+            description: "I was taking MOOCs in Natural Language Processing to learn AI skills for a few months until I had the chance to work with an e-commerce conglomerate in Tokyo. I worked in the team that trained their first chatbots in entertainment, banking, sports, and even romance conversations."
       - imgalign: "center"
         image: "/images/aeroplane.png"
         img_captext: "And then I moved to the UK..."
@@ -86,19 +86,13 @@ extra_curriculars:
   title: "My \"Extra-curricular Activities\""
   image: "/images/avatar_cook.png"
   paragaphs:
-      - text: "I go on long hikes, walks, and runs. I love outdoor activities, especially anything involving mountains, snow, or trails. You can find my old travel photos in [The Wide Traverse](https://thewidetraverse.wordpress.com/)."
-      - text: "I'm a big reader of books about space, nature, and history."
-      - text: "I do pencil portrait sketches of animals and friends."
-      - text: "I love cooking. But in general, I just love food."
+      - text: "I go on long hikes, walks, and runs. I love outdoor activities, especially anything involving mountains, snow, or forest trails. You can find my old travel photos in **[The Wide Traverse](https://thewidetraverse.wordpress.com/)**."
+      - text: "I'm a big reader of books about space, tech, nature, geopolitics, and history. I also collect maps."
+      - text: "I do calisthenics (i.e., \"floating off of the ground\")."
+      - text: "I love learning new languages. I can speak English, Filipino, Japanese, and a bit of Spanish, Russian, and Norwegian."
+      - text: "I love cooking and baking. But really, I just love food."
 
 ---
-<!-- 
-### My Extra-Curricular Activities
-
-- I go on long hikes, walks, and runs. I love outdoor activities, especially anything involving mountains, snow, or trails.
-- I'm a big reader of books about space, nature, and history.
-- I do pencil portrait sketches of animals and friends.
-- I love cooking. But in general, I just love food. -->
 
 {{< gallery dir="images/extracurriculars" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="false" >}}
 

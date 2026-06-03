@@ -12,13 +12,13 @@ url = "/projects"
 weight = 2
 
 [[main]]
-name = "Blog"
-url = "/blog"
+name = "Maps"
+url = "/maps"
 weight = 3
 
 
 # footer menu
-[[footer]]
-name = "Privacy Policy"
-url = "/privacy-policy"
-weight = 1
+#[[footer]]
+#name = "Privacy Policy"
+#url = "/privacy-policy"
+#weight = 1

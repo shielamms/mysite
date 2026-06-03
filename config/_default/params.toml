@@ -38,7 +38,7 @@ preloader = "" # use jpg, png, svg or gif format.
 [search]
 enable = true
 primary_color = "#121212"
-include_sections = ["blog", "projects"]
+include_sections = ["maps", "projects"]
 show_image = true
 show_description = true
 show_tags = true

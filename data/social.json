@@ -9,6 +9,11 @@
       "name": "linkedin",
       "icon": "fab fa-linkedin",
       "link": "https://www.linkedin.com/in/shiela-mms/"
+    },
+    {
+      "name": "wordpress",
+      "icon": "fab fa-wordpress",
+      "link": "https://thewidetraverse.wordpress.com/"
     }
   ]
 }

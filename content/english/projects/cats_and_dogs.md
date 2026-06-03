@@ -1,9 +1,9 @@
 ---
-title: "Cats and Dogs Classifier with Transfer Learning from Inception V3"
+title: "Cats and Dogs Classifier with Inception V3 Transfer Learning"
 meta_title: ""
 summary: "Demonstration of Transfer Learning from a pre-trained classifier model to enhance the performance of a CNN for classifying images of cats and dogs."
 date: 2026-03-15T10:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/projects/cats_and_dogs.jpg"
 categories: ["Machine Learning", "Vision"]
 draft: false
 ---
