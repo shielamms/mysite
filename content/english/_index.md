@@ -12,10 +12,10 @@ banner:
     enable: true
     skill1:
       title: "Software Development"
-      description: "I have developed software for computer vision applications, satellite payloads, education platforms, chatbots, and many more, mostly in the cloud."
+      description: "I have developed software for computer vision applications, satellite payloads, education platforms, chatbots, and many more."
     skill2:
       title: "Data & ML"
-      description: "I have designed and built data processing pipelines for data warehouses, training ML models, and building dashboards for data scientists and product managers."
+      description: "I have designed and built data processing pipelines for data warehouses, training ML models, and building dashboards and APIs for scientists and product teams."
     skill3:
       title: "Maps & Remote Sensing"
       description: "I am currently exploring the field of geospatial data processing and GIS tools. Check out [my maps](https://www.shielasandoval.com/maps)."
@@ -28,7 +28,7 @@ banner:
 
 secondary_banner:
   title: "A visual timeline of my work life"
-  image: "/images/trial.png"
+  image: "/images/timeline_v2.png"
   content: "Here's a quick visual overview of the tech that I specialised (or dabbled) in over the years. My career path has not been straight, but I treat these tech skills as tools that helped me solve problems that (I hope) mattered to many people."
 
 # Features
@@ -81,18 +81,18 @@ features:
           - year: "2025 - 2026"
             title: "Scotland (Remote)"
             description: "I went back to doing more AI-related stuff and shifted my focus towards Applied Computer Vision. At [Protex AI](https://www.protex.ai/), I wrote software for IoT devices installed in warehouses and factories to detect potentially dangerous situations and ensure workplace safety. I partly experimented with Vision Language Models and implemented algorithms for long-term event tracking, privacy zone blurring, and fall detection."
+      - imgalign: "center"
+        # image: "/images/satellite_transparent.png"
+        img_captext: "After some self-reflection, in March 2026, I went back to the field of Weather & Climate by learning modern tools & techniques in mapping and remote sensing. I am currently open to projects in climate monitoring, renewable energy transition, and earth observation."
 
 extra_curriculars:
   title: "My \"Extra-curricular Activities\""
   image: "/images/avatar_cook.png"
   paragaphs:
       - text: "I go on long hikes, walks, and runs. I love outdoor activities, especially anything involving mountains, snow, or forest trails. You can find my old travel photos in **[The Wide Traverse](https://thewidetraverse.wordpress.com/)**."
-      - text: "I'm a big reader of books about space, tech, nature, geopolitics, and history. I also collect maps."
-      - text: "I do calisthenics (i.e., \"floating off of the ground\")."
-      - text: "I love learning new languages. I can speak English, Filipino, Japanese, and a bit of Spanish, Russian, and Norwegian."
+      - text: "I'm a big reader of books about space, tech, nature, geopolitics, and history. I also collect paper maps (coz they're awesome)."
+      - text: "I enjoy calisthenics (the going-upside-down parts) and waddling around the swimming pool."
+      - text: "I love learning new languages. I can speak English, Filipino, Japanese, a bit of Spanish, Russian, and Norwegian, and some muttering of German."
       - text: "I love cooking and baking. But really, I just love food."
 
 ---
-
-{{< gallery dir="images/extracurriculars" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="false" >}}
-
