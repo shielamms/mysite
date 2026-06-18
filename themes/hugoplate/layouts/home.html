@@ -91,10 +91,11 @@
                 {{ .content | markdownify }}
               </p>
             </div>
-            <div class="mr-2 flex justify-center">
-              {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "xl:!max-w-[870]") }}
+            <div class="mx-auto">
+              <div class="max-w-[90%] mx-auto">
+              {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" ) }}
+              </div>
             </div>
-        </div>
       </div>
     </section>
   {{ end }}

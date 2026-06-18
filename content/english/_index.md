@@ -29,7 +29,7 @@ banner:
 secondary_banner:
   title: "My career timeline"
   image: "/images/timeline_v2.png"
-  content: "I am a generalist, passionate about learning as deeply and as widely as I can. I have worked in several software development roles in 6 cities across 3 countries. <br /><br />Here’s a visual summary of my career path, which I admit is a bit messy and has plenty of side quests. But I value flexibility, continuous learning, and applying my skills to help many different parts of society."
+  content: "I have worked in several software development roles in 6 cities across 3 countries. <br /><br />Here’s a visual summary of my career path, which I admit is a bit messy and has plenty of side quests. But I am a generalist. I learn widely and deeply, and I value flexibility, continuous learning, and applying my skills to help many different parts of society."
 
 # Features
 features:
@@ -77,10 +77,10 @@ features:
         paragraphs:
           - year: "2023 - 2025"
             title: "Glasgow, Scotland"
-            description: "Having had the strong desire to work in the space industry, I moved to Glasgow to join [Spire Global](https://spire.com/)'s Payload team which designed and operated instruments for GNSS Radio Occultation and Reflectometry on low-earth orbiting nanosatellites. I built automations on the payloads to collect and process valuable weather & climate data for clients like NOAA, NASA, and EUMETSAT."
+            description: "Having had the strong desire to work in the space industry, I moved to Glasgow to join [Spire Global](https://spire.com/)'s Payload team which designed and operated instruments for **GNSS Radio Occultation and Reflectometry** on low-earth orbiting nanosatellites. I built automations on the payloads to collect and process valuable weather & climate data for clients like NOAA, NASA, and EUMETSAT."
           - year: "2025 - 2026"
             title: "Scotland (Remote)"
-            description: "I went back to doing more AI-related stuff and shifted my focus towards Applied Computer Vision. At [Protex AI](https://www.protex.ai/), I wrote software for IoT devices installed in warehouses and factories to detect potentially dangerous situations and ensure workplace safety. I partly experimented with Vision Language Models and implemented algorithms for long-term event tracking, privacy zone blurring, and fall detection."
+            description: "I went back to doing more AI-related stuff and shifted my focus towards **Applied Computer Vision**. At [Protex AI](https://www.protex.ai/), I wrote software for IoT devices installed in warehouses and factories to detect potentially dangerous situations and ensure workplace safety. I partly experimented with Vision Language Models and implemented algorithms for long-term event tracking, privacy zone blurring, and fall detection."
       - imgalign: "center"
         # image: "/images/satellite_transparent.png"
         img_captext: "After some self-reflection, in March 2026, I went back to the field of Weather & Climate by learning modern tools & techniques in mapping and remote sensing. I am currently open to projects in climate monitoring, renewable energy transition, and earth observation."
