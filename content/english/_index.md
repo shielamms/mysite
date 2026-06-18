@@ -27,9 +27,9 @@ banner:
 
 
 secondary_banner:
-  title: "A visual timeline of my work life"
+  title: "My career timeline"
   image: "/images/timeline_v2.png"
-  content: "Here's a quick visual overview of the tech that I specialised (or dabbled) in over the years. My career path has not been straight, but I treat these tech skills as tools that helped me solve problems that (I hope) mattered to many people."
+  content: "I am a generalist, passionate about learning as deeply and as widely as I can. I have worked in several software development roles in 6 cities across 3 countries. <br /><br />Here’s a visual summary of my career path, which I admit is a bit messy and has plenty of side quests. But I value flexibility, continuous learning, and applying my skills to help many different parts of society."
 
 # Features
 features:
