@@ -11,13 +11,13 @@ banner:
   skillpoints:
     enable: true
     skill1:
-      title: "Software Development"
+      title: "Software"
       description: "I have developed software for computer vision applications, satellite payloads, education platforms, chatbots, and many more."
     skill2:
       title: "Data & ML"
       description: "I have designed and built data processing pipelines for data warehouses, training ML models, and building dashboards and APIs for scientists and product teams."
     skill3:
-      title: "Maps & Remote Sensing"
+      title: "Maps"
       description: "I am currently exploring the field of geospatial data processing and GIS tools. Check out [my maps](https://www.shielasandoval.com/maps)."
   # quicklinks:
   #   - name: "LinkedIn"
@@ -92,7 +92,7 @@ extra_curriculars:
       - text: "I go on long hikes, walks, and runs. I love outdoor activities, especially anything involving mountains, snow, or forest trails. You can find my old travel photos in **[The Wide Traverse](https://thewidetraverse.wordpress.com/)**."
       - text: "I'm a big reader of books about space, tech, nature, geopolitics, and history. I also collect paper maps (coz they're awesome)."
       - text: "I enjoy calisthenics (the going-upside-down parts) and waddling around the swimming pool."
-      - text: "I love learning new languages. I can speak English, Filipino, Japanese, a bit of Spanish, Russian, and Norwegian, and some muttering of German."
+      - text: "I love learning new languages. I can speak English, Filipino, Japanese, some conversational Spanish and Russian, and some smattering of Norwegian and German."
       - text: "I love cooking and baking. But really, I just love food."
 
 ---

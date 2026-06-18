@@ -4,18 +4,19 @@ meta_title: ""
 date: 2022-03-04T05:00:00Z
 image: "/images/maps/Brazil_rivers_rainbow.png"
 categories: ["Artsy"]
+author: "Shiela Sandoval"
 tags: ["python"]
-draft: true
+draft: false
 ---
 
 
-{{< figure src="/images/maps/UK_rivers_rainbow.png" width="450">}}
+{{< figure src="/images/maps/UK_rivers_rainbow.png" width="60%">}}
 
-{{< figure src="/images/maps/Brazil_rivers_rainbow.png" width="700">}}
+{{< figure src="/images/maps/Brazil_rivers_rainbow.png" width="60%">}}
 
-{{< figure src="/images/maps/India_rivers_gist_ncar.png" width="700">}}
+{{< figure src="/images/maps/India_rivers_gist_ncar.png" width="60%">}}
 
-{{< figure src="/images/maps/China_rivers_gist_rainbow.png" width="700">}}
+{{< figure src="/images/maps/China_rivers_gist_rainbow.png" width="60%">}}
 
 
 
