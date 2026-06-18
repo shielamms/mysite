@@ -1,7 +1,7 @@
 ---
 title: "Colourful River Networks"
 meta_title: ""
-date: 2022-03-04T05:00:00Z
+date: 2026-04-02T05:00:00Z
 image: "/images/maps/Brazil_rivers_rainbow.png"
 categories: ["Artsy"]
 author: "Shiela Sandoval"

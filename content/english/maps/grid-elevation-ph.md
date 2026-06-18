@@ -1,7 +1,7 @@
 ---
 title: "Gridded elevation map of the Philippines"
 meta_title: ""
-date: 2022-04-04T05:00:00Z
+date: 2026-04-03T03:00:00Z
 image: "/images/maps/ph_elevation_hexgrid_labelled.jpeg"
 categories: ["Artsy"]
 author: "Shiela Sandoval"
