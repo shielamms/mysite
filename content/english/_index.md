@@ -18,7 +18,7 @@ banner:
       description: "I have designed and built data processing pipelines for data warehouses, training ML models, and building dashboards and APIs for scientists and product teams."
     skill3:
       title: "Maps"
-      description: "I am currently exploring the field of geospatial data processing and GIS tools. Check out [my maps](https://www.shielasandoval.com/maps)."
+      description: "I love maps. I am currently exploring GIS tools and techniques for climate-related analyses. Check out [my maps portfolio](https://www.shielasandoval.com/maps)."
   # quicklinks:
   #   - name: "LinkedIn"
   #     link: "https://linkedin.com/in/shiela-mms"
@@ -84,15 +84,17 @@ features:
       - imgalign: "center"
         # image: "/images/satellite_transparent.png"
         img_captext: "After some self-reflection, in March 2026, I went back to the field of Weather & Climate by learning modern tools & techniques in mapping and remote sensing. I am currently open to projects in climate monitoring, renewable energy transition, and earth observation."
+        captext_bold: "true"
 
 extra_curriculars:
   title: "My \"Extra-curricular Activities\""
   image: "/images/avatar_cook.png"
+  image_cap: "(I can also flip pancakes)"
   paragaphs:
       - text: "I go on long hikes, walks, and runs. I love outdoor activities, especially anything involving mountains, snow, or forest trails. You can find my old travel photos in **[The Wide Traverse](https://thewidetraverse.wordpress.com/)**."
-      - text: "I'm a big reader of books about space, tech, nature, geopolitics, and history. I also collect paper maps (coz they're awesome)."
+      - text: "I'm a big reader of books about space, tech, geopolitics, and history. I also collect paper maps (coz they're awesome)."
       - text: "I enjoy calisthenics (the going-upside-down parts) and waddling around the swimming pool."
-      - text: "I love learning new languages. I can speak English, Filipino, Japanese, some conversational Spanish and Russian, and some smattering of Norwegian and German."
+      - text: "I love learning new languages. I can speak English, Filipino, Japanese, some conversational Spanish and Russian, and a smattering of Norwegian and German."
       - text: "I love cooking and baking. But really, I just love food."
 
 ---

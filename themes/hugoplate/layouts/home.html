@@ -92,7 +92,7 @@
               </p>
             </div>
             <div class="mr-2 flex justify-center">
-              {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "xl:!max-w-[950]") }}
+              {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "xl:!max-w-[870]") }}
             </div>
         </div>
       </div>
@@ -115,10 +115,12 @@
               <div class="container mb-14">
                 <div class="row items-center justify-between">
                   
+                  <!-- Align image right -->
                   {{ if eq $f.imgalign "right" }}
                   <div class="mb:md-0 md:col-4 lg:col-6 xl:col-6">
                     {{ partial "image" (dict "Src" .image "Alt" "Section image" "Loading" "eager" "DisplayXL" "800x") }}
                   </div>
+                  <!-- Align text and image center -->
                   {{ else if eq $f.imgalign "center" }}
                   <div class="mx-auto text-center">
                     {{ if .image }}
@@ -126,7 +128,15 @@
                       {{ partial "image" (dict "Src" .image "Alt" "Section image" "Loading" "eager" "Class" "lg:!max-w-[130px] xl:!max-w-[180px]" "DisplayXL" "200x") }}
                       </div>
                     {{ end }}
-                    <p class="mb-6">{{ .img_captext }}</p>
+                    <p class="mb-6">
+                      {{ if .captext_bold }}
+                        <strong>
+                          {{ .img_captext }}
+                        </strong>
+                      {{ else }}
+                        {{ .img_captext }}
+                      {{ end }}
+                    </p>
                   </div>
                   {{ end }}
 
@@ -147,14 +157,11 @@
                     {{ end }}
                   </div>
 
+                  <!-- Align image left -->
                   {{ if eq $f.imgalign "left" }}
                   <div class="mb:md-0 md:col-4 lg:col-6 xl:col-6">
                     {{ partial "image" (dict "Src" .image "Alt" "Section image" "Loading" "eager" "DisplayXL" "800x") }}
                   </div>
-
-
-                  
-
                   {{ end }}
                 </div>
               </div>
@@ -181,6 +188,9 @@
               {{ if .image }}
               <div class="flex-shrink-0 mr-4">
                 {{ partial "image" (dict "Src" .image "Alt" "Me Cooking" "Loading" "eager" "Class" "sm:!max-w-[290px] md:!max-w-[290px] lg:!max-w-[340px] xl:!max-w-[340px]" "DisplayXL" "800x") }}
+                {{ if .image_cap }}
+                <p class="text-center" style="font-size: 11px;">{{ .image_cap | markdownify }}</p>
+                {{ end}}
               </div>
               {{ end }}
 
